@@ -4,6 +4,8 @@ class Data {
   ano: number;
 
   constructor(dia: number = 1, mes: number = 1, ano: number = 1970) {
+    /*uma forma de deixar esse atributos publicos de uma 
+    forma melhor é botando public antes do parametro no construdor */
     this.dia = dia;
     this.ano = ano;
     this.mes = mes;
