@@ -10,9 +10,9 @@ namespace Areas{
     }
 }
 
-const PI = 2.99
+//const PI = 2.99
 
 console.log(Areas.circuferencia(10))
 console.log(Areas.retangulo(10, 20))
 
-console.log(PI)
+//console.log(PI)
