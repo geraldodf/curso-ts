@@ -22,7 +22,7 @@ class Eletrodomestico {
     console.log("Novo...");
   }
 }
-type Construtor = { new(...args: any[]): {}}
+// type Construtor = { new(...args: any[]): {}}
 
 function logarObjeto (constructor: Construtor){
     console.log('Carregado...');
